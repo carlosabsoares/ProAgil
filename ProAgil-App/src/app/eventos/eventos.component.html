@@ -16,15 +16,25 @@
       <th>Opções</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody *ngIf="eventos && eventos.length">
     <tr *ngFor="let evento of eventos" >
-      <td></td>
+      <td>{{evento.eventoId}}</td>
       <td>{{evento.tema}}</td>
       <td>{{evento.local}}</td>
       <td>{{evento.dataEvento}}</td>
       <td>{{evento.qtdPessoas}}</td>
       <td>{{evento.lote}}</td>
-      <td></td>
+      <td>
+        <button class="btn btn-outline-success"></button>
+        <button class="btn btn-danger"></button>
+      </td>
     </tr>
   </tbody>
+  <tfoot *ngIf="!eventos.length">
+    <tr>
+      <td colspan="7" class="text-center">
+          <h4>Nenhum evento encontrado!</h4>
+      </td>
+    </tr>
+  </tfoot>
 </table>
