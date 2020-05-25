@@ -8,7 +8,19 @@ import { HttpClient } from '@angular/common/http';
 })
 export class EventosComponent implements OnInit {
 
+  // tslint:disable-next-line: variable-name
+  _filtroLista: string;
 
+  get filtroLista(): string {
+    return this._filtroLista;
+  }
+
+  set filtroLista(value: string) {
+    this._filtroLista = value;
+    this.eventosFiltrados = this.filtroLista ? this.filtrarEvento(this.filtroLista) : this.eventos;
+  }
+
+  eventosFiltrados: any = [];
   eventos: any = [] ;
   imagemAltura = 50;
   imagemMargem = 2;
@@ -20,11 +32,18 @@ export class EventosComponent implements OnInit {
     this.getEventos();
   }
 
-  alterarImagem(){
+  filtrarEvento(filtarPor: string): any {
+    filtarPor = filtarPor.toLocaleLowerCase();
+    return this.eventos.filter(
+      evento => evento.tema.toLocaleLowerCase().indexOf(filtarPor) !== -1
+    );
+  }
+
+  alterarImagem() {
     this.mostrarImagem = !this.mostrarImagem;
   }
 
-  getEventos(){
+  getEventos() {
     this.eventos = this.http.get('http://localhost:5000/api/values').subscribe(response => {
       this.eventos = response;
     }, error => {
