@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.WebAPI\\ProAgil.API.csproj": {}
+    "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {}
   },
   "projects": {
     "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
@@ -97,80 +97,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
-    "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.WebAPI\\ProAgil.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.WebAPI\\ProAgil.API.csproj",
-        "projectName": "ProAgil.API",
-        "projectPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.WebAPI\\ProAgil.API.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.WebAPI\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.2"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.2": {
-            "projectReferences": {
-              "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj"
-              },
-              "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
-                "projectPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
