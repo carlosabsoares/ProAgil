@@ -12,3 +12,8 @@ D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\obj\Debug\netcor
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.dll
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.pdb
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.csprojAssemblyReference.cache
+D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Domain.dll
+D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Repository.dll
+D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
+D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
+D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CopyComplete
