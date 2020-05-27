@@ -93,7 +93,7 @@ namespace ProAgil.Repository
         }
 
         //Palestrante
-        public async Task<Palestrante[]> GetAllPalestranteAsyncByName(bool includeEventos)
+        public async Task<Palestrante[]> GetAllPalestranteAsyncByName(string nome, bool includeEventos)
         {
             IQueryable<Palestrante> query = _context.Palestrantes
                 .Include(c => c.RedesSociais);
@@ -105,7 +105,7 @@ namespace ProAgil.Repository
                     .ThenInclude(e => e.Evento);
             }
 
-            query = query.OrderBy(c => c.Nome);
+            query = query.Where( c => c.Nome.ToLower().Contains(nome.ToLower()));
 
             return await query.ToArrayAsync();
         }
