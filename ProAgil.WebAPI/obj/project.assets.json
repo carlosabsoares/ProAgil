@@ -4612,6 +4612,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.0",
           "ProAgil.Domain": "1.0.0"
         },
         "compile": {
@@ -12445,7 +12448,6 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "ProAgil.Domain >= 1.0.0",
       "ProAgil.Repository >= 1.0.0"
@@ -12507,10 +12509,6 @@
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.2.0, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[2.2.0, )"
           },
