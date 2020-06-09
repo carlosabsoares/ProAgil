@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4dKYdSBgzyax1EsCIpA1zvPk0J1zbhdjjatTVMiEruWEiU8WfbumOTJuL5tSpgO9ap1HGpWb3PGjUr3XUZVZlQ==",
+  "dgSpecHash": "yfcBynKpehJnkdClhPSdZfzGh7wwQPa63hBNkX2G26RPlG1P4QeZYOsEkEATsgCpeBkbG92Nm2hw/OB/DZupGA==",
   "success": true,
   "projectFilePath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\LaptopBeto\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

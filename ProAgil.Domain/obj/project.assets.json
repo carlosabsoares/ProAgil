@@ -686,7 +686,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {},
+    "C:\\Users\\LaptopBeto\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -695,15 +696,17 @@
       "projectUniqueName": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
       "projectName": "ProAgil.Domain",
       "projectPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\LaptopBeto\\.nuget\\packages\\",
       "outputPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\LaptopBeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
