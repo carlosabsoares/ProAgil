@@ -30,7 +30,7 @@ namespace ProAgil.API.Controllers
                 return Ok(result);
 
             }
-            catch (Exception e)
+            catch (System.Exception)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou");
             }
@@ -47,7 +47,7 @@ namespace ProAgil.API.Controllers
                 var result = await _context.Eventos.FirstOrDefaultAsync(x => x.Id == id);
                 return Ok(result);
             }
-            catch (Exception e)
+            catch (System.Exception)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou");
             }
