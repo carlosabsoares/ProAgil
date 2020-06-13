@@ -6,4 +6,3 @@ D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Domain\obj\Debug\netcor
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.AssemblyInfo.cs
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.dll
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.pdb
-D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.csprojAssemblyReference.cache

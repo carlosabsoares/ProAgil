@@ -1,14 +1,14 @@
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.deps.json
+D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.runtimeconfig.json
+D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.runtimeconfig.dev.json
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.dll
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Domain.dll
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.csprojAssemblyReference.cache
+D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.csproj.CoreCompileInputs.cache
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.AssemblyInfoInputs.cache
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.AssemblyInfo.cs
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.csproj.CopyComplete
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.dll
 D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.pdb
-D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.runtimeconfig.json
-D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.runtimeconfig.dev.json
-D:\Udemy\dotNet\FullStack_ASP_Web_API\DotNetCore\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.csproj.CoreCompileInputs.cache
