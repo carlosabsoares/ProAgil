@@ -22,7 +22,7 @@ export class EventosComponent implements OnInit {
   }
 
   eventosFiltrados: Evento[];
-  eventos: Evento[] ;
+  eventos: Evento[];
   imagemAltura = 50;
   imagemMargem = 2;
   mostrarImagem = false;
@@ -33,7 +33,7 @@ export class EventosComponent implements OnInit {
     this.getEventos();
   }
 
-  filtrarEvento(filtarPor: string): Evento {
+  filtrarEvento(filtarPor: string): Evento[] {
     filtarPor = filtarPor.toLocaleLowerCase();
     return this.eventos.filter(
       evento => evento.tema.toLocaleLowerCase().indexOf(filtarPor) !== -1
