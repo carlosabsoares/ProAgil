@@ -10,7 +10,7 @@ import { Evento } from '../_models/Evento';
 export class EventosComponent implements OnInit {
 
   // tslint:disable-next-line: variable-name
-  _filtroLista: string;
+  _filtroLista: string = '';
 
   get filtroLista(): string {
     return this._filtroLista;

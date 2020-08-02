@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {}
+    "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj": {}
   },
   "projects": {
-    "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+    "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectUniqueName": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "projectName": "ProAgil.Domain",
-        "projectPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
-        "packagesPath": "C:\\Users\\LaptopBeto\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\obj\\",
+        "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "packagesPath": "C:\\Users\\01184780790\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LaptopBeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\01184780790\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -58,21 +58,21 @@
         }
       }
     },
-    "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+    "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "projectUniqueName": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj",
         "projectName": "ProAgil.Repository",
-        "projectPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj",
-        "packagesPath": "C:\\Users\\LaptopBeto\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Repository\\obj\\",
+        "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "packagesPath": "C:\\Users\\01184780790\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LaptopBeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\01184780790\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -86,8 +86,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "D:\\Udemy\\dotNet\\FullStack_ASP_Web_API\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj"
               }
             }
           }
