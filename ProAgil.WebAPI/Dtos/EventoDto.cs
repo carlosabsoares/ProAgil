@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace ProAgil.Domain
+namespace ProAgil.API.Dtos
 {
-   public class Evento
+    public class EventoDto
     {
-
         public int Id { get; set; }
         public string Local { get; set; }
         public DateTime DataEvento { get; set; }
@@ -16,9 +16,8 @@ namespace ProAgil.Domain
         public string Telefone { get; set; }
         public string Email { get; set; }
 
-        public List<Lote> Lotes { get; set; }
-        public List<RedeSocial> RedesSociais { get; set; }
-        public List<PalestranteEvento> PalestranteEventos { get; set; }
-
+        public List<LoteDto> Lotes { get; set; }
+        public List<RedeSocialDto> RedesSociais { get; set; }
+        public List<PalestranteEventoDto> PalestranteEventos { get; set; }
     }
 }
