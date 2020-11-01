@@ -6,7 +6,6 @@ namespace ProAgil.Domain
 {
    public class Evento
     {
-
         public int Id { get; set; }
         public string Local { get; set; }
         public DateTime DataEvento { get; set; }
@@ -19,6 +18,5 @@ namespace ProAgil.Domain
         public List<Lote> Lotes { get; set; }
         public List<RedeSocial> RedesSociais { get; set; }
         public List<PalestranteEvento> PalestranteEventos { get; set; }
-
     }
 }
