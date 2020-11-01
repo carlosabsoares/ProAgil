@@ -27,7 +27,6 @@ C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\bin\Debug\netcoreapp2.
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.csprojAssemblyReference.cache
-C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CoreCompileInputs.cache
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cache
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cs
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfoInputs.cache
@@ -36,3 +35,4 @@ C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CopyComplete
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.dll
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.pdb
+C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CoreCompileInputs.cache
