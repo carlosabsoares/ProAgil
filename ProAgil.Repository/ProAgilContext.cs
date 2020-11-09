@@ -3,9 +3,11 @@ using ProAgil.Domain;
 
 namespace ProAgil.Repository
 {
-    public class ProAgilContext: DbContext
+    public class ProAgilContext : DbContext
     {
-        public ProAgilContext(DbContextOptions<ProAgilContext> options): base(options){}
+        public ProAgilContext(DbContextOptions<ProAgilContext> options) : base(options)
+        {
+        }
 
         public DbSet<Evento> Eventos { get; set; }
         public DbSet<Palestrante> Palestrantes { get; set; }
@@ -18,7 +20,5 @@ namespace ProAgil.Repository
             modelBuilder.Entity<PalestranteEvento>()
                 .HasKey(PE => new { PE.EventoId, PE.PalestranteId });
         }
-
-
     }
 }

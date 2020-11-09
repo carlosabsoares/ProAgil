@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ProAgil.API.Dtos
 {
     public class RedeSocialDto
     {
+        public int Id { get; set; }
+
+        [Required(ErrorMessage = "O campo {0} é obrigatorio")]
         public string Nome { get; set; }
+
+        [Required(ErrorMessage = "O campo {0} é obrigatorio")]
         public string URL { get; set; }
     }
 }

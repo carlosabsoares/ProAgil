@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uw/Qv9p9KblpXxy0ETxrs5x1I6Bu2UCeKM0rpMAI2pN4QZKIhL6lHbKGmZ0PWk8GfdiFWB6EMzYWp4HkMjftpA==",
+  "dgSpecHash": "IV4Ts/lqnyiJwYpIt4B0nQYHH1SaA4ScLTE22pM03f89cOLDeedhoAgDj1VEz7bWOMm7zdxrDsmL23hW0YVfag==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.WebAPI\\ProAgil.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\01184780790\\.nuget\\packages\\automapper\\7.0.0\\automapper.7.0.0.nupkg.sha512",
+    "C:\\Users\\01184780790\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\4.0.0\\automapper.extensions.microsoft.dependencyinjection.4.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

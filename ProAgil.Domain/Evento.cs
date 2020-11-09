@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ProAgil.Domain
 {
-   public class Evento
+    public class Evento
     {
         public int Id { get; set; }
         public string Local { get; set; }

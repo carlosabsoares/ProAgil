@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProAgil.Domain;
 using ProAgil.Repository;
+using System.Threading.Tasks;
 
 namespace ProAgil.API.Controllers
 {
@@ -28,13 +25,11 @@ namespace ProAgil.API.Controllers
             {
                 var result = await _repo.GetAllPalestranteAsync(true);
                 return Ok(result);
-
             }
             catch (System.Exception)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou");
             }
-
         }
 
         // GET api/palestrante
@@ -45,13 +40,11 @@ namespace ProAgil.API.Controllers
             {
                 var result = await _repo.GetPalestranteAsync(PalestranteId, true);
                 return Ok(result);
-
             }
             catch (System.Exception)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou");
             }
-
         }
 
         // GET api/palestrante
@@ -60,16 +53,13 @@ namespace ProAgil.API.Controllers
         {
             try
             {
-                var result = await _repo. GetAllPalestranteAsyncByName(nome, true);
+                var result = await _repo.GetAllPalestranteAsyncByName(nome, true);
                 return Ok(result);
-
             }
             catch (System.Exception)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou");
             }
-
-
         }
 
         // Post
@@ -84,8 +74,6 @@ namespace ProAgil.API.Controllers
                 {
                     return Created($"/api/evento/{model.Id}", model);
                 }
-
-
             }
             catch (System.Exception)
             {
@@ -93,7 +81,6 @@ namespace ProAgil.API.Controllers
             }
 
             return BadRequest();
-
         }
 
         // Put
@@ -112,8 +99,6 @@ namespace ProAgil.API.Controllers
                 {
                     return Created($"/api/palestrante/{model.Id}", model);
                 }
-
-
             }
             catch (System.Exception)
             {
@@ -121,7 +106,6 @@ namespace ProAgil.API.Controllers
             }
 
             return BadRequest();
-
         }
 
         // Delete
@@ -148,9 +132,6 @@ namespace ProAgil.API.Controllers
             }
 
             return BadRequest();
-
         }
-
-
     }
 }

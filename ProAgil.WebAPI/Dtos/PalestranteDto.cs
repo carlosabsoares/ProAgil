@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace ProAgil.API.Dtos
 {
@@ -14,6 +11,6 @@ namespace ProAgil.API.Dtos
         public string Telefone { get; set; }
         public string Email { get; set; }
         public List<RedeSocialDto> RedesSociais { get; set; }
-        public List<EventoDto> PalestranteEventos { get; set; }
+        public List<EventoDto> Eventos { get; set; }
     }
 }

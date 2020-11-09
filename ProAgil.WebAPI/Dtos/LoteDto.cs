@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ProAgil.API.Dtos
 {
@@ -12,6 +9,8 @@ namespace ProAgil.API.Dtos
         public decimal Preco { get; set; }
         public string DataInicio { get; set; }
         public string DataFim { get; set; }
+
+        [Range(2,120000)]
         public int Quantidade { get; set; }
     }
 }
