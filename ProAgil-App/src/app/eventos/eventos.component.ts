@@ -8,6 +8,7 @@ import {defineLocale } from 'ngx-bootstrap/chronos'; // para funcionar o datepic
 import {BsLocaleService} from 'ngx-bootstrap/datepicker';
 import {ptBrLocale} from 'ngx-bootstrap/locale'; // para funcionar o datepicker em pt-BR
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+import { ToastrService } from 'ngx-toastr';
 
 defineLocale('pt-br', ptBrLocale);
 
@@ -19,6 +20,8 @@ defineLocale('pt-br', ptBrLocale);
 })
 export class EventosComponent implements OnInit {
   
+  titulo = 'Eventos';
+
   eventosFiltrados: Evento[];
   eventos: Evento[];
 
@@ -40,6 +43,7 @@ export class EventosComponent implements OnInit {
     , private modalService: BsModalService
     , private fb: FormBuilder
     , private localeService: BsLocaleService
+    , private toastr: ToastrService
     ) {
       this.localeService.use('pt-br');
     }
@@ -112,7 +116,9 @@ export class EventosComponent implements OnInit {
                 (novoEvento: Evento) => {
                     template.hide();
                     this.getEventos();
+                    this.toastr.success('Inserido com Sucesso!');
               }, error => {
+                this.toastr.error(`Erro ao inserir: ${error}`);
                 console.log(error);
               }
            );
@@ -122,7 +128,9 @@ export class EventosComponent implements OnInit {
             () => {
                 template.hide();
                 this.getEventos();
+                this.toastr.success('Editado com Sucesso!');
           }, error => {
+            this.toastr.error(`Erro ao editar: ${error}`);
             console.log(error);
           }
        );
@@ -142,7 +150,9 @@ confirmeDelete(template: any){
     () => {
       template.hide();
       this.getEventos();
+      this.toastr.success('Deletado com Sucesso!');
     }, error =>{
+      this.toastr.error(`Erro ao deletar: ${error}`);
       console.log(error);
       }
   );
@@ -154,9 +164,8 @@ confirmeDelete(template: any){
       (_eventos: Evento[]) => {
       this.eventos = _eventos;
       this.eventosFiltrados = this.eventos;
-      console.log(_eventos);
     }, error => {
-      console.log(error);
+      this.toastr.error(`Erro ao tentar carregar eventos: ${error}`);
     });
   }
 
