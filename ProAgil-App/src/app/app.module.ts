@@ -24,10 +24,13 @@ import { TituloComponent } from './_shared/titulo/titulo.component';
 import { DateTimeFormatPipePipe } from './_helps/DateTimeFormatPipe.pipe';
 
 //import { from } from 'rxjs';
+import { UserComponent } from './user/user.component';
+import { LoginComponent } from './user/login/login.component';
+import { RegistrationComponent } from './user/registration/registration.component';
 
 
 @NgModule({
-   declarations: [				
+   declarations: [					
       AppComponent,
       NavComponent,
       EventosComponent,
@@ -35,7 +38,11 @@ import { DateTimeFormatPipePipe } from './_helps/DateTimeFormatPipe.pipe';
       DashboardComponent,
       ContatosComponent,
       TituloComponent,
+      UserComponent,
+      LoginComponent,
+      RegistrationComponent,
       DateTimeFormatPipePipe
+
    ],
    imports: [
       BrowserModule,
