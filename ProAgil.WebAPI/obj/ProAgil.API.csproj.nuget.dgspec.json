@@ -1,38 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.WebAPI\\ProAgil.API.csproj": {}
+    "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.WebAPI\\ProAgil.API.csproj": {}
   },
   "projects": {
-    "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+    "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectUniqueName": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "projectName": "ProAgil.Domain",
-        "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj",
-        "packagesPath": "C:\\Users\\01184780790\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\obj\\",
+        "projectPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "packagesPath": "C:\\Users\\carlosalberto\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\01184780790\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\carlosalberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Projetos\\Fontes\\TFS\\Nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://editorati.pkgs.visualstudio.com/Conquista/_packaging/Conquista/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -44,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -64,38 +62,35 @@
         }
       }
     },
-    "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+    "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Repository\\ProAgil.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "projectUniqueName": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Repository\\ProAgil.Repository.csproj",
         "projectName": "ProAgil.Repository",
-        "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj",
-        "packagesPath": "C:\\Users\\01184780790\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\obj\\",
+        "projectPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "packagesPath": "C:\\Users\\carlosalberto\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\01184780790\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\carlosalberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Projetos\\Fontes\\TFS\\Nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://editorati.pkgs.visualstudio.com/Conquista/_packaging/Conquista/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj"
               }
             }
           }
@@ -108,6 +103,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -140,41 +136,38 @@
         }
       }
     },
-    "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.WebAPI\\ProAgil.API.csproj": {
+    "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.WebAPI\\ProAgil.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.WebAPI\\ProAgil.API.csproj",
+        "projectUniqueName": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.WebAPI\\ProAgil.API.csproj",
         "projectName": "ProAgil.API",
-        "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.WebAPI\\ProAgil.API.csproj",
-        "packagesPath": "C:\\Users\\01184780790\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.WebAPI\\obj\\",
+        "projectPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.WebAPI\\ProAgil.API.csproj",
+        "packagesPath": "C:\\Users\\carlosalberto\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\01184780790\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\carlosalberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Projetos\\Fontes\\TFS\\Nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://editorati.pkgs.visualstudio.com/Conquista/_packaging/Conquista/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj"
               },
-              "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj": {
-                "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj"
+              "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+                "projectPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Repository\\ProAgil.Repository.csproj"
               }
             }
           }
@@ -187,6 +180,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",

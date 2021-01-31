@@ -1,5 +1,9 @@
+import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { AuthService } from 'app/_services/auth.service';
+import { error } from 'console';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
@@ -9,9 +13,12 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class RegistrationComponent implements OnInit {
 
-  registeForm: FormGroup;
+  registerForm: FormGroup;
+  user: any={};
 
-  constructor(public fb: FormBuilder
+  constructor(private authService: AuthService
+             , public fb: FormBuilder
+             , public router: Router
              , private toastr: ToastrService) { 
                
              }
@@ -21,7 +28,7 @@ export class RegistrationComponent implements OnInit {
   }
 
   validation(){
-    this.registeForm = this.fb.group({
+    this.registerForm = this.fb.group({
       fullName:['', Validators.required],
       email:['', [Validators.required, Validators.email]],
       userName:['', Validators.required],
@@ -34,7 +41,7 @@ export class RegistrationComponent implements OnInit {
 
 
   compararSenhas(fb: FormGroup){
-    const confirmaSenhaCtrl = fb.get('confirmarPassword');
+    const confirmaSenhaCtrl = fb.get('confirmPassword');
     if(confirmaSenhaCtrl.errors == null || 'mismatch' in confirmaSenhaCtrl.errors ){
       if(fb.get('password').value !== confirmaSenhaCtrl.value){
         confirmaSenhaCtrl.setErrors({ mismatch: true});
@@ -45,10 +52,34 @@ export class RegistrationComponent implements OnInit {
     }
   }
 
-  cadastrarUsuarios(){}
-
   cadastrarUsuario(){
-    console.log();
+    if(this.registerForm.valid){
+      this.user = Object.assign(
+        {password: this.registerForm.get('passwords.password').value}, 
+        this.registerForm.value);
+        //console.log(this.user);
+        this.authService.register(this.user).subscribe(
+          ()=>{
+              this.router.navigate(['/user/login']);
+              this.toastr.success('Cadastro Realizado');
+          }, error =>{
+            const erro = error.error();
+            erro.forEach(element => {
+                switch(element.code){
+                  case 'DuplicateUserName':
+                    this.toastr.error('Cadastro Duplicado!');
+                    break;
+
+                  default:
+                    this.toastr.error(`Erro no Cadastro! Code: ${element.code}`);
+                    break;
+                }
+            });
+            
+          }
+           
+        )
+    }
   }
 
 }

@@ -15,3 +15,12 @@ C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.Domain\obj\Debug\netcoreapp2.
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.dll
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.pdb
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.csproj.CoreCompileInputs.cache
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\bin\Debug\netcoreapp2.2\ProAgil.Domain.deps.json
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\bin\Debug\netcoreapp2.2\ProAgil.Domain.dll
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.csprojAssemblyReference.cache
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.csproj.CoreCompileInputs.cache
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.AssemblyInfoInputs.cache
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.AssemblyInfo.cs
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.dll
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Domain\obj\Debug\netcoreapp2.2\ProAgil.Domain.pdb

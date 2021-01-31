@@ -4080,39 +4080,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\01184780790\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\carlosalberto\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj",
+      "projectUniqueName": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj",
       "projectName": "ProAgil.Domain",
-      "projectPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj",
-      "packagesPath": "C:\\Users\\01184780790\\.nuget\\packages\\",
-      "outputPath": "C:\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil\\ProAgil.Domain\\obj\\",
+      "projectPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj",
+      "packagesPath": "C:\\Users\\carlosalberto\\.nuget\\packages\\",
+      "outputPath": "D:\\Pessoal\\Estudos\\Udemy\\Full_Stack_WebAPI\\ProAgil.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\01184780790\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\carlosalberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Projetos\\Fontes\\TFS\\Nuget": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://editorati.pkgs.visualstudio.com/Conquista/_packaging/Conquista/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "projectReferences": {}
         }
       },
@@ -4124,6 +4120,7 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
+        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",

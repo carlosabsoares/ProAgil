@@ -38,11 +38,10 @@ import { RegistrationComponent } from './user/registration/registration.componen
       DashboardComponent,
       ContatosComponent,
       TituloComponent,
+      DateTimeFormatPipePipe,
       UserComponent,
       LoginComponent,
-      RegistrationComponent,
-      DateTimeFormatPipePipe
-
+      RegistrationComponent
    ],
    imports: [
       BrowserModule,
@@ -51,7 +50,12 @@ import { RegistrationComponent } from './user/registration/registration.componen
       BsDatepickerModule.forRoot(),
       TooltipModule.forRoot(),
       ModalModule.forRoot(),
-      ToastrModule.forRoot(),
+      BrowserAnimationsModule,
+      ToastrModule.forRoot({
+         timeOut: 3000,
+         preventDuplicates: true,
+         progressBar: true
+      }),
       AppRoutingModule,
       HttpClientModule,
       FormsModule,

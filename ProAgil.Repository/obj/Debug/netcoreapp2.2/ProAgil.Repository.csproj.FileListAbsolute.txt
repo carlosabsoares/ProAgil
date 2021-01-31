@@ -26,3 +26,17 @@ C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.Repository\obj\Debug\netcorea
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.csproj.CopyComplete
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.dll
 C:\Estudos\Udemy\Full_Stack_WebAPI\ProAgil\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.pdb
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.deps.json
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.runtimeconfig.json
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.runtimeconfig.dev.json
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.dll
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Domain.dll
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.csprojAssemblyReference.cache
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.csproj.CoreCompileInputs.cache
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.AssemblyInfoInputs.cache
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.AssemblyInfo.cs
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.csproj.CopyComplete
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.dll
+D:\Pessoal\Estudos\Udemy\Full_Stack_WebAPI\ProAgil.Repository\obj\Debug\netcoreapp2.2\ProAgil.Repository.pdb
